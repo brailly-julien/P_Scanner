@@ -1,0 +1,5 @@
+<h2>Your QR Code:</h2>
+@if (!string.IsNullOrEmpty(ViewBag.QRCodeImage))
+{
+    <img src="data:image/png;base64,@ViewBag.QRCodeImage" alt="QR Code" />
+} 

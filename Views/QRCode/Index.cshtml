@@ -1,0 +1,16 @@
+@model P_Scanner.Models.UserInput
+
+<h2>Generate QR Code</h2>
+
+<form asp-action="Generate" asp-controller="QRCode" method="post">
+  <label for="Variable1">Variable 1:</label>
+  <input type="text" id="Variable1" name="Variable1" /><br />
+
+  <label for="Variable2">Variable 2:</label>
+  <input type="text" id="Variable2" name="Variable2" /><br />
+
+  <label for="Variable3">Variable 3:</label>
+  <input type="text" id="Variable3" name="Variable3" /><br />
+
+  <input type="submit" value="Generate QR Code" />
+</form>

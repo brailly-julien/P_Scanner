@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "J9oDv6Fyf4nEoftixpgZ1ySDyIoijewjSyPWDGEW699DTw4PWn2rEAvSBj1CbDDsqHXKL7O4iNA4JWets3fVVw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\jujub\\Documents\\_M2\\Internet_Of_Object\\P_Scanner\\P_Scanner.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\jujub\\.nuget\\packages\\microsoft.win32.systemevents\\7.0.0\\microsoft.win32.systemevents.7.0.0.nupkg.sha512",
+    "C:\\Users\\jujub\\.nuget\\packages\\qrcoder\\1.4.3\\qrcoder.1.4.3.nupkg.sha512",
+    "C:\\Users\\jujub\\.nuget\\packages\\system.drawing.common\\7.0.0\\system.drawing.common.7.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
