@@ -7,11 +7,28 @@
 <video id="preview"></video>
 
 <script src="https://cdn.rawgit.com/schmich/instascan-builds/master/instascan.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script>
     let scanner = new Instascan.Scanner({ video: document.getElementById('preview') });
     scanner.addListener('scan', function (content) {
         console.log(content);
-        alert(content);
+        //alert(content);
+            $.ajax({
+                type: "POST",
+                url: "/QRCode/UpdateSeat",
+                data: { qrCodeData: content },
+                success: function(response) {
+                    if (response.success) {
+                        alert("Seat updated successfully");
+                    } else {
+                        alert("Failed to update seat");
+                    }
+                },
+                error: function(jqXHR, textStatus, errorThrown) {
+                    console.log(textStatus, errorThrown);
+                    alert("An error occurred");
+                }
+            });
     });
     Instascan.Camera.getCameras().then(function (cameras) {
         if (cameras.length > 0) {

@@ -35,3 +35,16 @@ C:\Users\jujub\Documents\_M2\Internet_Of_Object\P_Scanner\obj\Debug\net8.0\refin
 C:\Users\jujub\Documents\_M2\Internet_Of_Object\P_Scanner\obj\Debug\net8.0\P_Scanner.pdb
 C:\Users\jujub\Documents\_M2\Internet_Of_Object\P_Scanner\obj\Debug\net8.0\P_Scanner.genruntimeconfig.cache
 C:\Users\jujub\Documents\_M2\Internet_Of_Object\P_Scanner\obj\Debug\net8.0\ref\P_Scanner.dll
+C:\Users\jujub\Documents\_M2\Internet_Of_Object\P_Scanner\bin\Debug\net8.0\AWSSDK.Core.dll
+C:\Users\jujub\Documents\_M2\Internet_Of_Object\P_Scanner\bin\Debug\net8.0\AWSSDK.SecurityToken.dll
+C:\Users\jujub\Documents\_M2\Internet_Of_Object\P_Scanner\bin\Debug\net8.0\DnsClient.dll
+C:\Users\jujub\Documents\_M2\Internet_Of_Object\P_Scanner\bin\Debug\net8.0\MongoDB.Bson.dll
+C:\Users\jujub\Documents\_M2\Internet_Of_Object\P_Scanner\bin\Debug\net8.0\MongoDB.Driver.dll
+C:\Users\jujub\Documents\_M2\Internet_Of_Object\P_Scanner\bin\Debug\net8.0\MongoDB.Driver.Core.dll
+C:\Users\jujub\Documents\_M2\Internet_Of_Object\P_Scanner\bin\Debug\net8.0\MongoDB.Libmongocrypt.dll
+C:\Users\jujub\Documents\_M2\Internet_Of_Object\P_Scanner\bin\Debug\net8.0\SharpCompress.dll
+C:\Users\jujub\Documents\_M2\Internet_Of_Object\P_Scanner\bin\Debug\net8.0\Snappier.dll
+C:\Users\jujub\Documents\_M2\Internet_Of_Object\P_Scanner\bin\Debug\net8.0\ZstdSharp.dll
+C:\Users\jujub\Documents\_M2\Internet_Of_Object\P_Scanner\bin\Debug\net8.0\runtimes\linux\native\libmongocrypt.so
+C:\Users\jujub\Documents\_M2\Internet_Of_Object\P_Scanner\bin\Debug\net8.0\runtimes\osx\native\libmongocrypt.dylib
+C:\Users\jujub\Documents\_M2\Internet_Of_Object\P_Scanner\bin\Debug\net8.0\runtimes\win\native\mongocrypt.dll
