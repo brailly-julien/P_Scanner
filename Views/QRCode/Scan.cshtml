@@ -2,9 +2,19 @@
     ViewData["Title"] = "Scanner un QR Code";
 }
 
+<style>
+    #preview {
+        width: 100%;
+        height: auto;
+        max-height: 70vh; /* Ce pourcentage peut être ajusté en fonction de vos besoins */
+    }
+</style>
+
 <h1>Scanner un QR Code</h1>
 
-<video id="preview"></video>
+<div class="video-container">
+    <video id="preview"></video>
+</div>
 
 <script src="https://cdn.rawgit.com/schmich/instascan-builds/master/instascan.min.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
