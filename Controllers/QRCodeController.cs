@@ -60,7 +60,7 @@ namespace P_Scanner.Controllers
             Console.WriteLine($"variable1: {variable1}, variable2: {variable2}, variable3: {variable3}");
 
             // Créer une connexion à la base de données MongoDB
-            var client = new MongoClient("mongodb+srv://dbUser:dbPassword@cluster0.6ml5yl4.mongodb.net/");
+            var client = new MongoClient("mongodb+srv://dbUser:dbPassword@cluster0.6ml5yl4.mongodb.net/IotProject");
             var database = client.GetDatabase("IotProject");
             var collection = database.GetCollection<BsonDocument>("seats");
 

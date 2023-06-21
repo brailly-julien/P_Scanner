@@ -18,5 +18,5 @@ Dépannage
 Si vous rencontrez des problèmes lors de l'utilisation de l'application, vérifiez les points suivants :
 
 Votre base de données MongoDB est-elle en cours d'exécution et accessible ?
-Lien de la bdd mongodb+srv://dbUser:dbPassword@cluster0.6ml5yl4.mongodb.net/
+Lien de la bdd mongodb+srv://dbUser:dbPassword@cluster0.6ml5yl4.mongodb.net/IotProject
 Les variables de votre QR code sont-elles correctement formatées et séparées par des virgules ?
